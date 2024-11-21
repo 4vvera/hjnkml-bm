@@ -36,8 +36,101 @@
             <button class="cta-button">Free Consultation</button>
         </div>
         <div class="hero-image">
-            <img src="IMAGE HERE" alt="PUT AN IMAGE HERE">
+            <img src="dog_with_cucumber.png" alt="Dog Spa Image">
         </div>
     </section>
-  </body>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="about-image">
+            <img src="puppy.png" alt="Cute Puppy">
+        </div>
+        <div class="about-text">
+            <h2>A Few Words About Us</h2>
+            <p>
+                SpaDog is a pet salon established in 1999 with the main goal of giving your pets 
+                the full furry body treatment so they can look their very best every day.
+            </p>
+            <p>
+                Our salon offers a complete line of fine grooming services to bring out the best 
+                appearance and personality in your pet. Our groomers work carefully, never rush, and 
+                do not overbook appointments.
+            </p>
+            <button class="cta-button">Learn More</button>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <h3>What services do you offer?</h3>
+            <p>We provide full grooming services, including baths, haircuts, and nail trimming for dogs and cats.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Do you offer adoption services?</h3>
+            <p>Yes, we help adopt pets in need through our adoption program. Check our catalog for available pets!</p>
+        </div>
+        <div class="faq-item">
+            <h3>How can I volunteer?</h3>
+            <p>Visit our Volunteer Forum to sign up and make a difference in our animal shelter.</p>
+        </div>
+    </section>
+
+    <!-- Recently Added Pets Section -->
+    <section class="recently-added">
+        <h2>Recently Added Pets</h2>
+        <div class="pet-card">
+            <img src="dog1.jpg" alt="Dog">
+            <div class="pet-info">
+                <h3>Buddy</h3>
+                <p>Breed: Labrador</p>
+                <p>Age: 2 years</p>
+                <button class="cta-button">Adopt Me</button>
+            </div>
+        </div>
+        <div class="pet-card">
+            <img src="dog2.jpg" alt="Dog">
+            <div class="pet-info">
+                <h3>Max</h3>
+                <p>Breed: German Shepherd</p>
+                <p>Age: 3 years</p>
+                <button class="cta-button">Adopt Me</button>
+            </div>
+        </div>
+    </section>
+
+ <!-- Volunteer Sign-Up Section -->
+    <section id="volunteer" class="section">
+        <div class="container">
+            <h2>Become a Volunteer</h2>
+            <p>Help us make a difference by volunteering at our shelter. Fill out the form below to sign up.</p>
+            <form action="#" method="POST">
+                <label for="volunteer-name">Your Name:</label>
+                <input type="text" id="volunteer-name" name="volunteer-name" >
+                
+                <label for="volunteer-email">Your Email:</label>
+                <input type="email" id="volunteer-email" name="volunteer-email" >
+                
+                <label for="volunteer-phone">Phone Number:</label>
+                <input type="tel" id="volunteer-phone" name="volunteer-phone" >
+                
+                <label for="volunteer-role">Preferred Role:</label>
+                <select id="volunteer-role" name="volunteer-role" >
+                    <option value="Dog Walker">Dog Walker</option>
+                    <option value="Cat Caretaker">Cat Caretaker</option>
+                    <option value="Shelter Support">Shelter Support</option>
+                    <option value="Foster Care">Foster Care</option>
+                </select>
+                
+                <label for="volunteer-availability">Availability:</label>
+                <textarea id="volunteer-availability" name="volunteer-availability" placeholder="Tell us about your availability" ></textarea>
+                
+                <button class="cta-btn">Sign Up to Volunteer</button>
+            </form>
+        </div>
+    </section>
+
+  
+</body>
 </html>
