@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaDog - Pet Adoption & Grooming</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="top-bar">
+            <div class="logo">Spa<span>Dog</span></div>
+            <div class="contact-info">
+                <span>1-800-1234-567</span> | <span>1-800-8763-765</span>
+                <span>2130 Fulton Street, San Diego, CA</span>
+            </div>
+            <button class="cta-button">Request a Call</button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Recently Added Pets</a></li>
+                <li><a href="#">Pets Catalog</a></li>
+                <li><a href="#">Volunteer Forum</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Make Your Dogs <br><span>Look Their Best</span></h1>
+            <button class="cta-button">Free Consultation</button>
+        </div>
+        <div class="hero-image">
+            <img src="IMAGE HERE" alt="PUT AN IMAGE HERE">
+        </div>
+    </section>
+  </body>
+</html>
